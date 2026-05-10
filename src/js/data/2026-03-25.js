@@ -38,8 +38,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Disable Collab Characters",
     key: "collab",
-    tooltip: "Check this to disable collab characters (Hatsune Miku, Misaka Mikoto, etc.)",
-    checked: false
+    tooltip: "Check this to disable collab characters (Hatsune Miku, Misaka Mikoto, etc.)"
   },
   {
     name: "Remove Duplicate Characters",
@@ -497,6 +496,14 @@ dataSet[dataSetVersion].characterData = [
       NPC: true
     }
   },
+  {
+    name: "Asakusa Natsuki",
+    img: "natsuki.jpg",
+    opts: {
+      school: ["Hyakkiyako"],
+      NPC: true
+    }
+  },
 
   //Millenium
   {
@@ -870,37 +877,34 @@ dataSet[dataSetVersion].characterData = [
     name: "Kazekura Moe",
     img: "moe.jpg",
     opts: {
-      school: ["SRT"],
+      school: ["SRT"]
+    }
+  },
+  {
+    name: "Yoshino Niko",
+    img: "niko.jpg",
+    opts: {
+      school: ["SRT"]
+    }
+  },
+  {
+    name: "Takakura Kurumi",
+    img: "kurumi.jpg",
+    opts: {
+      school: ["SRT"]
+    }
+  },
+  {
+    name: "Tenjinyama Otogi",
+    img: "otogi.jpg",
+    opts: {
+      school: ["SRT"]
     }
   },
   //--npc
   {
     name: "Shichido Yukino",
     img: "yukino.jpg",
-    opts: {
-      school: ["SRT"],
-      NPC: true
-    }
-  },
-  {
-    name: "Niko",
-    img: "niko.jpg",
-    opts: {
-      school: ["SRT"],
-      NPC: true
-    }
-  },
-  {
-    name: "Kurumi",
-    img: "kurumi.jpg",
-    opts: {
-      school: ["SRT"],
-      NPC: true
-    }
-  },
-  {
-    name: "Otogi",
-    img: "otogi.jpg",
     opts: {
       school: ["SRT"],
       NPC: true
@@ -1115,7 +1119,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Konoka",
+    name: "Shima Konoka",
     img: "konoka.jpg",
     opts: {
       school: ["Valkyrie"]
@@ -1270,6 +1274,14 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "GSC President",
     img: "gsc_president.jpg",
+    opts: {
+      school: ["Other"],
+      NPC: true
+    }
+  },
+  {
+    name: "GSC President (blonde)",
+    img: "gsc_president(blonde).jpg",
     opts: {
       school: ["Other"],
       NPC: true
